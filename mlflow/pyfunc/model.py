@@ -9,7 +9,7 @@ import shutil
 import yaml
 from abc import ABCMeta, abstractmethod
 
-import cloudpickle
+import dill as cloudpickle
 
 import mlflow.pyfunc
 import mlflow.utils
