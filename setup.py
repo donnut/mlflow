@@ -39,6 +39,7 @@ and Databricks.
 SKINNY_REQUIREMENTS = [
     "click>=7.0",
     "cloudpickle",
+    "dill",
     "databricks-cli>=0.8.7",
     "entrypoints",
     "gitpython>=2.1.0",
